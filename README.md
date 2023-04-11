@@ -1,7 +1,6 @@
 ### malawrim.github.io
 Template for personal website from Jekyll Mediumish Theme
 
-file tree:
 ```bash
 malawrim.github.io
 │   404.html
