@@ -1,21 +1,13 @@
 ### malawrim.github.io
 Template for personal website from Jekyll Mediumish Theme
 
-Explaination of file system:
-
+file tree:
 ```bash
 malawrim.github.io
-│   .gitignore
 │   404.html
-│   changelog.md
-│   docker-compose.yml
-│   favicon.ico
-│   feed.xml
 │   Gemfile - manage Jekyll version and plugins
-│   Gemfile.lock
 │   index.html - landing page - calls featured and general posts - pulls in format from \_layouts/default.html
 │   LICENSE.txt
-│   README.md
 │   _config.yml - includes title, site name, authors, plugins
 │
 ├───assets
@@ -24,38 +16,16 @@ malawrim.github.io
 │   │       screen.css
 │   │
 │   ├───fonts
-│   │       casper-icons.eot
-│   │       casper-icons.svg
-│   │       casper-icons.ttf
-│   │       casper-icons.woff
+│   │       casper-icons fonts
 │   │
 │   ├───images
-│   │       1.jpg
-│   │       10.jpg
-│   │       11.jpg
-│   │       12.jpg
-│   │       13.jpg
-│   │       14.jpg
-│   │       15.jpg
-│   │       16.jpg
-│   │       17.jpg
-│   │       2.jpg
-│   │       3.jpg
-│   │       4.jpg
-│   │       5.jpg
-│   │       6.jpg
-│   │       7.jpg
-│   │       8.jpg
-│   │       9.jpg
-│   │       avatar.png
-│   │       jumbotron.jpg
-│   │
+│   │       all images *.jpg
 │   └───js
 │           ie10-viewport-bug-workaround.js
 │           jquery.min.js
 │           lazyload.js
 │           lunr.js
-│           lunrsearchengine.js
+│           lunrsearchengine.js - generates search bar
 │           mediumish.js
 │
 ├───site
@@ -63,27 +33,24 @@ malawrim.github.io
 │
 ├───_includes
 │       adsense-under-header.html
-│       disqus.html
-│       featuredbox.html
+│       disqus.html - if enabling comments on posts
+│       featuredbox.html - set up box for featured post (labeled "current projects" in this implementation)
 │       pagination.html
-│       postbox.html
-│       search-lunr.html
-│       share.html
-│       star_rating.html
-│       star_rating_postbox.html
-│       toc.html
+│       postbox.html - set up box for featured post (labeled "past work" in this implementation)
+│       search-lunr.html - set up search bar
+│       share.html - for connecitng to social is using
+│       toc.html - table of contents
 │
 ├───_layouts
-│       archive.html
-│       categories.html
-│       default.html
-│       page.html
-│       post.html
-│       tags.html
+│       archive.html - use if archiving any pages
+│       categories.html - sets up page categories if using
+│       default.html - default page layout - called in index.html
+│       page.html - calls default - template for non-posts
+│       post.html - calls default - template for any posts
+│       tags.html - sets up tags if using
 │
 ├───_posts
-│       2018-01-12-second_example.md
-│       2023-04-11-example.md
+│       all posts *.md
 │
 └───_sass
         _stars.scss
