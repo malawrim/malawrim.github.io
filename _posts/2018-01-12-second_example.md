@@ -2,6 +2,7 @@
 layout: post
 title:  "Past Work"
 image: assets/images/4.jpg
+author: false
 ---
 
 description of past work
