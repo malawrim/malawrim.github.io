@@ -6,6 +6,7 @@ image: assets/images/6.jpg
 description: "Blog template"
 featured: true
 hidden: true
+comments: false
 ---
 
 Editting blog template
