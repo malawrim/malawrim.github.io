@@ -1,21 +1,18 @@
 ---
 layout: post
-title:  "Inception Movie"
-author: john
-categories: [ Jekyll, tutorial ]
-tags: [red, yellow]
+title:  "Post"
+author: Margaret
 image: assets/images/6.jpg
-description: "My review of Inception movie. Acting, plot and something else in this short description."
+description: "Blog template"
 featured: true
 hidden: true
-rating: 4.5
 ---
 
-Review products, books, movies, restaurant and anything you like on your Jekyll blog with Mediumish! JSON-LD ready for review property.
+Editting blog template
 
-#### How to use?
+#### Try it out
 
-It's actually really simple! Add the rating in your YAML front matter. It also supports halfs:
+Practicing with code inset:
 
 ```python
 pred_file_path = os.path.join(os.getcwd(), "pred")
