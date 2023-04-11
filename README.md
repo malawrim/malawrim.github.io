@@ -1,6 +1,7 @@
 ### malawrim.github.io
 Template for personal website from Jekyll Mediumish Theme
 
+```
 malawrim.github.io
 │   404.html
 │   Gemfile - manage Jekyll version and plugins
@@ -50,7 +51,8 @@ malawrim.github.io
 ├───_posts
 │       all posts *.md
 │
-└───\_sass
-        \_stars.scss
-        \_starsnonscss.scss
-        \_syntax.scss
+└───_sass
+        _stars.scss
+        _starsnonscss.scss
+        _syntax.scss
+```
