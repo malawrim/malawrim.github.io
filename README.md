@@ -3,10 +3,9 @@ Template for personal website from Jekyll Mediumish Theme
 
 ```
 malawrim.github.io
-│   404.html
+│   404.html - use when page isn't found
 │   Gemfile - manage Jekyll version and plugins
 │   index.html - landing page - calls featured and general posts - pulls in format from \_layouts/default.html
-│   LICENSE.txt
 │   _config.yml - includes title, site name, authors, plugins
 │
 ├───assets
