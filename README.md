@@ -1,7 +1,8 @@
-# malawrim.github.io
+### malawrim.github.io
 Template for personal website from Jekyll Mediumish Theme
 
 Explaination of file system:
+
 malawrim.github.io
   config.yml - includes title, site name, authors, plugins
   index.html - landing page - calls featured and general posts - pulls in format from \_layouts/default.html
