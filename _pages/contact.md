@@ -8,7 +8,7 @@ comments: false
 
 Ph.D. Student, Geospatial Analytics | Center for Geospatial Analytics
 
-<div class="col-12 col-md-12 col-lg-7">
+<div class="col-2 col-md-2 col-lg-2">
     <div class="h-100 card-group">
         <div class="card">
         <p class="mb-5"><img class="card-img-top" src="{{site.baseurl}}/assets/images/email_icon.png" alt="email">
