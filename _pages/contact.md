@@ -7,7 +7,7 @@ comments: false
 
 <div>
 
-<h5>Contact Me</h4>
+<h4>Contact Me</h4>
 
 <p> malawrim@ncsu.edu | 828-776-6137 | <a class="nav-link" href="geospatial.ncsu.edu">geospatial.ncsu.edu</a> </p>
 
