@@ -5,12 +5,11 @@ permalink: /contact
 comments: false
 ---
 
+<div>
 
-Ph.D. Student, Geospatial Analytics | Center for Geospatial Analytics
+<h5>Contact Me</h4>
 
-malawrim@ncsu.edu | 828-776-6137 | <a class="nav-link" href="geospatial.ncsu.edu">geospatial.ncsu.edu</a>
-
-North Carolina State University | College of Natural Resources
+<p> malawrim@ncsu.edu | 828-776-6137 | <a class="nav-link" href="geospatial.ncsu.edu">geospatial.ncsu.edu</a> </p>
 
 <div class="col-2 col-lg-2">
     <div class="h-100 card-group">
@@ -22,4 +21,6 @@ North Carolina State University | College of Natural Resources
         </div>
         </div>
     </div>
+</div>
+
 </div>
