@@ -1,8 +1,7 @@
 ---
 layout: page
 title:  "About me"
-author: false
-hidden: true
+permalink: /about
 comments: false
 ---
 
