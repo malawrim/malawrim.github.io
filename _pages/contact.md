@@ -16,7 +16,10 @@ North Carolina State University | College of Natural Resources
     <div class="h-100 card-group">
         <div class="card">
         <p class="mb-5"><img class="card-img-top" src="{{site.baseurl}}/assets/images/email_icon.png" alt="email">
+        </p>
         <div class="card-body">
             <h6 class="card-title">malawrim@ncsu.edu</h6>
         </div>
         </div>
+    </div>
+</div>
