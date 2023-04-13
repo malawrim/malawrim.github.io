@@ -1,4 +1,6 @@
 ### malawrim.github.io
+
+Check out webiste at  <a class="nav-link" href="https://malawrim.github.io/">malawrim.github.io</a>
 Template for personal website from Jekyll Mediumish Theme
 
 ```
