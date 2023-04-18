@@ -28,7 +28,7 @@ post_class: post-template
                 <div class="row post-top-meta">
                     <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
                         {% if author.avatar %}
-                        <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}"
+                        <img class="author-thumb" src="{{site.url}}/{{ author.avatar }}"
                             alt="{{ author.display_name }}">
                         {% else %}
                         <img class="author-thumb"
@@ -61,11 +61,11 @@ post_class: post-template
             {% if site.lazyimages == "enabled" %}
             <img class="featured-image img-fluid lazyimg"
                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII="
-                data-src="{% if page.image contains " ://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image
-                }}{% endif %}" alt="{{ page.title }}">
+                data-src="{% if page.image contains " ://" %}{{ page.image }}{% else %}{{ site.url }}/{{ page.image }}{%
+                endif %}" alt="{{ page.title }}">
             {% else %}
             <img class="featured-image img-fluid" src="{% if page.image contains " ://" %}{{ page.image }}{% else %}{{
-                site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+                site.url }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
             {% endif %}
 
             {% endif %}
@@ -112,7 +112,7 @@ post_class: post-template
                     {% assign sortedCategories = page.categories | sort %}
                     {% for category in sortedCategories %}
                     <li>
-                        <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " "," -" }}">{{
+                        <a class="smoothscroll" href="{{site.url}}/categories#{{ category | replace: " "," -" }}">{{
                             category }}</a>
                     </li>
                     {% endfor %}
@@ -126,7 +126,7 @@ post_class: post-template
                     {% assign sortedTags = page.tags | sort %}
                     {% for tag in sortedTags %}
                     <li>
-                        <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tag | replace: " "," -" }}">#{{ tag
+                        <a class="smoothscroll" href="{{site.url}}/tags#{{ tag | replace: " "," -" }}">#{{ tag
                             }}</a>
                     </li>
                     {% endfor %}

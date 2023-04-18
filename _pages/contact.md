@@ -5,22 +5,27 @@ permalink: /contact
 comments: false
 ---
 
-<div>
+<div class="row justify-content-between">
+<div class="col-md-8 pr-5">
 
-<h4>Contact Me</h4>
+<p>Welcome! My name is Margaret Lawrimore and I am a second year PhD Student in Geospatial Analytics at North Carolina State University.</p>
 
-<p> malawrim@ncsu.edu | 828-776-6137 | <a class="nav-link" href="geospatial.ncsu.edu">geospatial.ncsu.edu</a> </p>
-
-<div class="col-2 col-lg-2">
-    <div class="h-100 card-group">
-        <div class="card">
-        <p class="mb-5"><img class="card-img-top" src="{{site.baseurl}}/assets/images/email_icon.png" alt="email">
-        </p>
-        <div class="card-body">
-            <h6 class="card-title">malawrim@ncsu.edu</h6>
-        </div>
-        </div>
-    </div>
 </div>
 
+<div class="col-md-4">
+
+<div class="sticky-top sticky-top-80">
+
+<p class="mb-5"><img class="shadow-lg" src="{{site.url}}/assets/images/about_me.jpg" alt="photo" /></p>
+
+<h5>Contact Me</h5>
+
+<p>Thank you for your interest! See below for more info! </p>
+
+<a target="_blank" href="mailto: malawrim@ncsu.edu" class="btn btn-danger">malawrim@ncsu.edu</a> <a target="_blank" href="https://linkedin.com/in/margaret-lawrimore" class="btn btn-danger">LinkedIn</a> 
+
+<a target="_blank" href="https://github.com/malawrim" class="btn btn-warning">GitHub</a> <a target="_blank" href="https://geospatial.ncsu.edu" class="btn btn-warning">NCSU CGA</a>
+
+</div>
+</div>
 </div>
