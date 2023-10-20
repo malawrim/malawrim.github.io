@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Forecasting human mobility and development driven by future flood hazard conditions"
+title:  "Forecasting Human Mobility and Development Driven by Future Flood Hazard Conditions"
 author: false
 image: assets/images/FUTURES_migration_no_text.png
 description: "Projected migration from Charleston, SC by 2050 computed using the FUTURES land change model"
