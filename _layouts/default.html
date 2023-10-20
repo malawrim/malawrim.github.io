@@ -71,20 +71,20 @@
 
                 <ul class="navbar-nav ml-auto">
 
+                    {% if page.url == "/" %}
+                    <li class="nav-item active">
+                        {% else %}
+                    <li class="nav-item">
+                        {% endif %}
+                        <a class="nav-link" href="{{site.url}}/index.html">Research</a>
+                    </li>
+
                     {% if page.url == "/about" %}
                     <li class="nav-item active">
                         {% else %}
                     <li class="nav-item">
                         {% endif %}
                         <a class="nav-link" href="{{site.url}}/about">About</a>
-                    </li>
-
-                    {% if page.url == "/" %}
-                    <li class="nav-item active">
-                        {% else %}
-                    <li class="nav-item">
-                        {% endif %}
-                        <a class="nav-link" href="{{site.url}}/index.html">Portfolio</a>
                     </li>
 
                     <li class="nav-item">
