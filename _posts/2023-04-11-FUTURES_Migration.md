@@ -17,4 +17,8 @@ Projecting human mobility and shifts in development patterns in response to futu
 
 <p class="mb-5"><img class="shadow-lg" src="{{site.url}}/assets/images/Futures_migration_poster.png" alt="poster description of projected migration" /></p>
 
+<h4>Take a look!</h4>
+<p> Check out our <a href="https://doi.org/10.5066/P9BD5V4B">results</a>, <a href="https://mybinder.org/v2/gh/ncsu-landscape-dynamics/futures-model-intro-notebook/main?urlpath=lab/tree/futures_triangle.ipynb">framework</a>, and <a href="https://doi.org/10.1038/s41598-023-46195-9">manuscript</a> </p>
+
+
 </div>
