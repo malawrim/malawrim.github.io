@@ -23,7 +23,7 @@ in flood-prone areas difficult. Through this project, we applied a machine-learn
 
 <h4>Findings</h4>
 <p> 
-We produced zoning predictions statewide for North Carolina, available <a href="https://zenodo.org/records/8136886">here</a>. We explored flood exposure and zoning regulations across Brunswick County. Tailored local results were presented to and shared with the Leland Community Development Planning Department (excluded here over privacy concerns).
+We produced zoning predictions statewide for North Carolina, available <a href="https://zenodo.org/records/8136886">here</a>. We explored flood exposure and zoning regulations across Brunswick County. Tailored local results were presented to and shared with the Leland Community Development Planning Department. Efforts are underway to create public repository to share results. 
 </p>
 
 This work was made possible in part by funding provided by the North Carolina Sea Grant minigrant program.
